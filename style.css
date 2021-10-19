@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700&display=swap');
+
+:root {
+    --color1: #171717;
+    --color2: #444444;
+    --color3: #f44786;
+    --color4: #ffffff;
+    --color5: #249f9c;
+}
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.bg-1 {
+    background: var(--color1) !important;
+}
+
+.color-1 {
+    color: var(--color1) !important;
+}
+
+.color-2 {
+    color: var(--color2) !important;
+}
+
+.color-3 {
+    color: var(--color3) !important
+}
+
+.color-4 {
+    color: var(--color4) !important;
+}
+
+.color-5 {
+    color: var(--color5) !important;
+}
+
+.nav-item {
+    margin: 0 10px;
+}
+
+.nav-link {
+    font-size: 1.25rem;
+    color: var(--color2) !important;
+}
+
+.nav-link:hover {
+    color: var(--color3) !important;
+}
+
+.navbar {
+    position: relative;
+    z-index: 1;
+}
+
+.hero {
+    position: relative;
+    background: var(--color1);
+    min-height: 90vh;
+}
+
+.my-content-center {
+    margin-top: 120px;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+.my-img {
+    box-shadow: 15px -15px 1px 5px var(--color3),
+    15px 10px 1px 10px var(--color4),
+    -5px 0px 1px 15px var(--color5);
+    transition: all .4s ease-in-out;
+    padding: 10px;
+    /* filter: grayscale(100); */
+}
+
+.my-img:hover {
+    box-shadow: 15px -15px 1px 5px var(--color4),
+    15px 10px 1px 10px var(--color5),
+    -5px 0px 1px 15px var(--color3);
+    /* filter: none; */
+}
+
+.my-btn-sosmed {
+    width: 50px;
+    height: 50px;
+    padding: 8px 10px;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    color: var(--color4);
+    transition: all .2s ease-in-out;
+}
+
+.my-btn-sosmed:nth-child(1):hover {
+    transform: scale(90%);
+    color: var(--color4);
+    background: var(--color3);
+}
+
+.my-btn-sosmed:nth-child(2):hover {
+    transform: scale(90%);
+    color: var(--color1);
+    background: var(--color4);
+}
+
+.my-btn-sosmed:nth-child(3):hover {
+    transform: scale(90%);
+    color: var(--color4);
+    background: var(--color5);
+}
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+#particles-js {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.overlay {
+    position: relative;
+    width: 100%;
+    height: 90vh;
+}
